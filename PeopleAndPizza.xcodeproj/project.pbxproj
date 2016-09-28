@@ -12,6 +12,10 @@
 		5B077DDF1D9C519B003DCE37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B077DDD1D9C519B003DCE37 /* Main.storyboard */; };
 		5B077DE11D9C519B003DCE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B077DE01D9C519B003DCE37 /* Assets.xcassets */; };
 		5B077DE41D9C519B003DCE37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B077DE21D9C519B003DCE37 /* LaunchScreen.storyboard */; };
+		83E85E3E1D9C5782001348E4 /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E85E3D1D9C5782001348E4 /* Tiger.swift */; };
+		83E85E401D9C5804001348E4 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E85E3F1D9C5804001348E4 /* Coordinate.swift */; };
+		83E85E421D9C5C6A001348E4 /* PizzaDeliveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E85E411D9C5C6A001348E4 /* PizzaDeliveryService.swift */; };
+		83E85E441D9C6256001348E4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E85E431D9C6256001348E4 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		5B077DE01D9C519B003DCE37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B077DE31D9C519B003DCE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B077DE51D9C519B003DCE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83E85E3D1D9C5782001348E4 /* Tiger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiger.swift; sourceTree = "<group>"; };
+		83E85E3F1D9C5804001348E4 /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coordinate.swift; path = ../Coordinate.swift; sourceTree = "<group>"; };
+		83E85E411D9C5C6A001348E4 /* PizzaDeliveryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaDeliveryService.swift; sourceTree = "<group>"; };
+		83E85E431D9C6256001348E4 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		5B077DD81D9C519B003DCE37 /* PeopleAndPizza */ = {
 			isa = PBXGroup;
 			children = (
+				83E85E431D9C6256001348E4 /* Person.swift */,
+				83E85E3F1D9C5804001348E4 /* Coordinate.swift */,
+				83E85E3D1D9C5782001348E4 /* Tiger.swift */,
+				83E85E411D9C5C6A001348E4 /* PizzaDeliveryService.swift */,
 				5B4F927E1D9C533B00B9360D /* Supporting Files */,
 			);
 			path = PeopleAndPizza;
@@ -104,7 +116,7 @@
 				TargetAttributes = {
 					5B077DD51D9C519B003DCE37 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = KXY9EDFTF5;
+						DevelopmentTeam = 3WL69W834X;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -145,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E85E441D9C6256001348E4 /* Person.swift in Sources */,
 				5B077DDC1D9C519B003DCE37 /* ViewController.swift in Sources */,
+				83E85E3E1D9C5782001348E4 /* Tiger.swift in Sources */,
 				5B077DDA1D9C519B003DCE37 /* AppDelegate.swift in Sources */,
+				83E85E421D9C5C6A001348E4 /* PizzaDeliveryService.swift in Sources */,
+				83E85E401D9C5804001348E4 /* Coordinate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KXY9EDFTF5;
+				DEVELOPMENT_TEAM = 3WL69W834X;
 				INFOPLIST_FILE = PeopleAndPizza/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.PeopleAndPizza;
@@ -280,7 +296,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KXY9EDFTF5;
+				DEVELOPMENT_TEAM = 3WL69W834X;
 				INFOPLIST_FILE = PeopleAndPizza/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.PeopleAndPizza;
